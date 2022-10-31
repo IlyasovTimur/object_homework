@@ -16,6 +16,12 @@ public class Main {
         System.out.println("eugeneOnegin.getAuthor() = " + eugeneOnegin.getAuthor());
         System.out.println("eugeneOnegin.getPublishingYear() = " + eugeneOnegin.getPublishingYear());
 
+        System.out.println(eugeneOnegin);
+        System.out.println("levTolstoy.hashCode() = " + levTolstoy.hashCode());
+        System.out.println("warAndPeace.equals(eugeneOnegin) = " + warAndPeace.equals(eugeneOnegin));
+        Book eugeneOnegin2 = new Book("Eugene Onegin", alexanderPushkin, 1965);
+        System.out.println("eugeneOnegin.equals(eugeneOnegin) = " + eugeneOnegin.equals(eugeneOnegin));
+
 
     }
 }

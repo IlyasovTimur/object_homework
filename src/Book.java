@@ -25,4 +25,13 @@ public class Book {
     public void setPublishingYear(int publishingYear) {
         this.publishingYear = publishingYear;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "Book name '" + bookName + '\'' +
+                ", author " + author +
+                ", publishing year " + publishingYear +
+                '}';
+    }
 }

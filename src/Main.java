@@ -22,6 +22,11 @@ public class Main {
         Book eugeneOnegin2 = new Book("Eugene Onegin", alexanderPushkin, 1965);
         System.out.println("eugeneOnegin.equals(eugeneOnegin) = " + eugeneOnegin.equals(eugeneOnegin));
 
+        System.out.println("levTolstoy.equals(alexanderPushkin) = " + levTolstoy.equals(alexanderPushkin));
+
+        Book annaKarenina = new Book("Anna Karenina", levTolstoy, 1965);
+        System.out.println("warAndPeace.equals(annaKarenina) = " + warAndPeace.equals(annaKarenina));
+        System.out.println("levTolstoy.equals(levTolstoy) = " + levTolstoy.equals(levTolstoy));
 
     }
 }
